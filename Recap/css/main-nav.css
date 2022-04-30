@@ -1,0 +1,32 @@
+.main-nav {
+  display: flex;
+  padding: 10px 0;
+  background-color: #00B4D8;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* #03045E */
+.main-nav ul li a {
+  display: block;
+  border: 1px solid #0076B6;
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 0.4rem 1.6rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  color: #CAF0F8;
+}
+
+.main-nav ul li a:hover {
+  border-color: none;
+  background-color: #0076B6;
+}
+
+.nav-tag {
+  align-self: center;
+}

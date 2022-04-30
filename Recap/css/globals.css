@@ -1,0 +1,39 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body, .page {
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+}
+
+main {
+  width: 100%;
+  background-color: #CAF0F8;
+  padding: 2rem;
+}
+
+.sidebar {
+  width: 20rem;
+  background-color: #0077B6;
+  font-weight: 700;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}

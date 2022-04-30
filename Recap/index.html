@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header><span class="tag">&lt;header&gt;&lt;/header&gt;</span></header>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#selectors">Selectors</a></li>
+          <li><a href="#position">Position</a></li>
+          <li><a href="#functions">Functions</a></li>
+          <li><a href="#page3">TBA</a></li>
+        </ul>
+        <span class="nav-tag tag">&lt;nav&gt;&lt;/nav&gt;</span>
+      </nav>
+      <div class="container">
+        <aside class="sidebar">
+          <span class="tag">
+            &lt;aside&gt;
+            <br />content<br />
+            &lt;/aside&gt;
+          </span>
+        </aside>
+        <main>
+          <h1 class="tag">&lt;main&gt;&lt;/main&gt;</h1>
+          <section id="selectors">
+            <h2>Selectors: &lt;section&gt;&lt;/section&gt;</h2>
+            <div class="main-content">
+              <ul>
+                <li>Simple selectors:</li>
+                <li>
+                  <ul>
+                    <li>Universal selector: *</li>
+                    <li>Descendent selector: div p</li>
+                  </ul>
+                </li>
+                <li>Complex selectors:</li>
+                <li>
+                  <ul>
+                    <li>Child selector: div > p</li>
+                    <li>Descendent selector: div + p</li>
+                    <li>Child selector: div ~ p</li>
+                  </ul>
+                </li>
+                <li>Attribute selectors:</li>
+                <li>
+                  <ul>
+                    <li>[attr]</li>
+                    <li>[attr=val]</li>
+                    <li>[attr~=val]</li>
+                    <li>[attr|=val]</li>
+                    <li>[attr^=val]</li>
+                    <li>[attr$=val]</li>
+                    <li>[attr*=val]</li>
+                  </ul>
+                </li>
+                <li>Structural selectors:</li>
+                <li>
+                  <ul>
+                    <li>:first-child</li>
+                    <li>:last-child</li>
+                    <li>:only-child</li>
+                    <li>:nth-child(an+b)</li>
+                    <li>:first-of-type</li>
+                    <li>:nth-of-type(an+b)</li>
+                    <li>:nth-last-of-type(an+b)</li>
+                  </ul>
+                </li>
+                <li>State-Related Pseudo-Classes</li>
+                <li>
+                  <ul>
+                    <li>:enabled</li>
+                    <li>:disabled</li>
+                    <li>:checked</li>
+                    <li>:link</li>
+                    <li>:visited</li>
+                    <li>:hover</li>
+                    <li>:active</li>
+                  </ul>
+                </li>
+                <li>More Pseudo-Classes</li>
+                <li>
+                  <ul>
+                    <li>:not(X)</li>
+                    <li>:target</li>
+                  </ul>
+                </li>
+                <li>
+                  Pseudo-Elements
+                </li>
+                <li>
+                  <ul>
+                    <li>::after</li>
+                    <li>::before</li>
+                    <li>::first-letter</li>
+                    <li>::first-line</li>
+                    <li>::selection</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="position">
+            <h2>Position: &lt;section&gt;&lt;/section&gt;</h2>
+            <div class="main-content">
+              <ul>
+                <li>Relative</li>
+                <li>Absolute</li>
+                <li>Relative + Absolute</li>
+                <li>Fixed</li>
+                <li>Sticky</li>
+                <li><a href="./examples/position/index.html" target="_blank">Z-index / position / stacking context</a></li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="functions">
+            <h2>Functions: &lt;section&gt;&lt;/section&gt;</h2>
+            <div class="main-content">
+              <ul>
+                <li>Function declarations</li>
+                <li>Scopes</li>
+                <li>Closures</li>
+              </ul>
+            </div>
+          </section>
+
+          <div class="line"></div>
+        </main>
+      </div>
+      <footer><span class="tag">&lt;footer&gt;&lt;/footer&gt;</span></footer>
+    </div>
+    <script src="./examples/fetch/index.js"></script>
+    <!-- <script src="./examples/classes/index.js"></script> -->
+    <script src="./examples/classes/example.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #EDF6F9;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body, .page {
+  min-height: 100vh;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  padding: 2rem;
+}

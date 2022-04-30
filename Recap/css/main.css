@@ -1,0 +1,27 @@
+#selectors {
+  display: block;
+}
+
+.tag {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.line {
+  height: 10px;
+  background-color: #000;
+}
+
+section {
+  padding: 10px;
+  border: 1px solid #0077B6;
+  margin-bottom: 10px;
+}
+
+section h2 {
+  margin-top: 0px;
+}
+
+section:target h2 {
+  color: cadetblue;
+}
