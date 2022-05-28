@@ -1,0 +1,11 @@
+.container-body {
+    display: flex;
+}
+
+.container-body > div:first-child {
+    width: 150px;
+}
+
+.container-body > div:last-child {
+    flex-grow: 1;
+}

@@ -1,21 +1,12 @@
-const PAGE_HASHES = {
-  CREATE_ARTICLE: '#create-article',
-  ARTICLE: '#articles',
-};
-
-const HASH_MODULE_MAP = {
-  [PAGE_HASHES.CREATE_ARTICLE]: './create-article.js',
-  [PAGE_HASHES.ARTICLE]: './articles.js',
-  //...
-};
+import LoadModule from "./load-module.js";
 
 function PageLoader() {
 
 }
 
 PageLoader.prototype = {
-  load() {
-
+  load(activePage) {
+    console.log('activePage', activePage);
   }
 };
 

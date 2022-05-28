@@ -1,6 +1,5 @@
 import Nav from './nav.js';
-import PageLoader from './utils/page-loader';
-import { LoadPromiseHtml } from './utils/load-html.js';
+import PageLoader from './utils/page-loader.js';
 
 //@todo refactor to import on demand
 
@@ -12,7 +11,7 @@ function App(PageLoader, PageNav) {
 App.prototype = {
   init() {
     this.pageNav.attachListeners();
-    this.pageLoader.load();
+    this.pageLoader.load(this.pageNav.activePage);
     this.pageNav.onChange((hash) => {});
   },
 };
